@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CalculatorwithFloat.srcs/sources_1/new/ButtonLevel.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../CalculatorwithFloat.srcs/sources_1/new/Calculator.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1793611339">
+  <File Type="PA-TCL" Name="Calculator.tcl"/>
+  <File Type="REPORTS-TCL" Name="Calculator_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Calculator_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Calculator_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Calculator_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="Calculator_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="Calculator_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Calculator_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Calculator.hwdef"/>
+  <File Type="OPT-TIMING" Name="Calculator_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="Calculator_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="Calculator_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Calculator_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Calculator_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Calculator_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Calculator_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Calculator_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Calculator_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Calculator_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Calculator_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Calculator_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Calculator_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Calculator_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="Calculator_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Calculator_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Calculator_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Calculator_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Calculator_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Calculator_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Calculator_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Calculator_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Calculator_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="Calculator_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="Calculator_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Calculator_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Calculator_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Calculator_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Calculator_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Calculator_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Calculator_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Calculator_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Calculator_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Calculator_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Calculator_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Calculator_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Calculator_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Calculator_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Calculator_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Calculator_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Calculator_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Calculator_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Calculator_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Calculator_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="Calculator_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Calculator_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Calculator_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Calculator_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Calculator_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Calculator_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Calculator_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Calculator_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Calculator_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="Calculator.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="Calculator.ncr"/>
+  <File Type="BG-BIT" Name="Calculator.bit"/>
+  <File Type="BG-BIN" Name="Calculator.bin"/>
+  <File Type="BITSTR-MSK" Name="Calculator.msk"/>
+  <File Type="BITSTR-RBT" Name="Calculator.rbt"/>
+  <File Type="BITSTR-NKY" Name="Calculator.nky"/>
+  <File Type="BITSTR-BMM" Name="Calculator_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Calculator.mmi"/>
+  <File Type="PDI-FILE" Name="Calculator.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Calculator_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Calculator_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Calculator.rcfi"/>
+  <File Type="CFI_FILE" Name="Calculator.cfi"/>
+  <File Type="RNPI_FILE" Name="Calculator.rnpi"/>
+  <File Type="RCDO-FILE" Name="Calculator.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="Calculator_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="Calculator_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="Calculator_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="Calculator_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="Calculator_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="Calculator_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="Calculator_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="Calculator_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="Calculator_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="Calculator_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="Calculator_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="Calculator_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="Calculator_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="Calculator_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="Calculator_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="Calculator.npi"/>
+  <File Type="RBD_FILE" Name="Calculator.rbd"/>
+  <File Type="MMI-FILE" Name="Calculator.mmi"/>
+  <File Type="BIF-FILE" Name="Calculator.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="Calculator_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="Calculator_pld.bif"/>
+  <File Type="LTX-FILE" Name="Calculator.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="Calculator_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="Calculator_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Calculator.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Calculator.sysdef"/>
+  <File Type="BG-BGN" Name="Calculator.bgn"/>
+  <File Type="BG-DRC" Name="Calculator.drc"/>
+  <File Type="RDI-RDI" Name="Calculator.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Calculator_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Calculator_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ButtonLevel.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Calculator.vhd">
+      <FileInfo SFType="VHDL2008">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Calculator"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Calculator.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Calculator.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

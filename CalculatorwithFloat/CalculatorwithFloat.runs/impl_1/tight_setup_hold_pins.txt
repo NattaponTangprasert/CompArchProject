@@ -1,0 +1,35 @@
++====================+===================+==========================+
+| Launch Setup Clock | Launch Hold Clock | Pin                      |
++====================+===================+==========================+
+| sys_clk_pin        | sys_clk_pin       | format_pos_reg[0]/D      |
+| sys_clk_pin        | sys_clk_pin       | format_pos_reg[1]/D      |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[8]/D    |
+| sys_clk_pin        | sys_clk_pin       | error_flag_reg/D         |
+| sys_clk_pin        | sys_clk_pin       | format_pos_reg[2]/D      |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[13]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[19]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[23]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[0]/D    |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[16]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[21]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[14]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[20]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[12]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[11]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[18]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[6]/D    |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[1]/D    |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[7]/D    |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[17]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[3]/D    |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[4]/D    |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[10]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[15]/D   |
+| sys_clk_pin        | sys_clk_pin       | result_cents_reg[22]/D   |
+| sys_clk_pin        | sys_clk_pin       | numerator_bits_reg[32]/D |
+| sys_clk_pin        | sys_clk_pin       | state_reg[2]/D           |
+| sys_clk_pin        | sys_clk_pin       | bit_index_reg[0]/D       |
+| sys_clk_pin        | sys_clk_pin       | state_reg[1]/D           |
+| sys_clk_pin        | sys_clk_pin       | bit_index_reg[5]/D       |
+| sys_clk_pin        | sys_clk_pin       | result_negative_reg/D    |
++--------------------+-------------------+--------------------------+

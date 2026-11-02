@@ -1,0 +1,115 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Mon Nov  2 16:24:24 2026
+| Host         : LAPTOP-MO78RUIT running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Calculator_control_sets_placed.rpt
+| Design       : Calculator
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    37 |
+|    Minimum number of control sets                        |    37 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   173 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    37 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     8 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    29 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             104 |           56 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             342 |           90 |
+| Yes          | No                    | No                     |              99 |           45 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             162 |           78 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------+-----------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |          Enable Signal          |                Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+---------------------------------+-----------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | buttons_c/format_pos_reg[0]_0   | buttons_c/held_reset_reg_inv_6                |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | buttons_c/format_pos_reg[1]_3   | buttons_c/format_pos_reg[0]                   |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | buttons_c/format_pos_reg[1]_4   | buttons_c/held_reset_reg_inv_5                |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | buttons_c/format_pos_reg[1]_5   | buttons_c/held_reset_reg_inv_8                |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | buttons_c/format_pos_reg[1]_6   | buttons_c/held_reset_reg_inv_7                |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | buttons_c/format_pos_reg[2]_0   | buttons_c/held_reset_reg_inv_9                |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG | buttons_c/format_pos_reg[2]     | buttons_c/format_pos_reg[1]_2                 |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | bit_index[4]_i_2_n_0            | bit_index[4]_i_1_n_0                          |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | debounce_switch[6].inst/CEA2    |                                               |               10 |             17 |         1.70 |
+|  clk_IBUF_BUFG | buttons_c/CEA2                  | debounce_switch[11].inst/RSTA                 |               11 |             17 |         1.55 |
+|  clk_IBUF_BUFG | buttons_c/chosen_op_reg[1]      | denominator[16]_i_1_n_0                       |                8 |             17 |         2.12 |
+|  clk_IBUF_BUFG | debounce_switch[6].inst/E[0]    | buttons_c/held_reset_reg_inv_3                |               11 |             17 |         1.55 |
+|  clk_IBUF_BUFG | buttons_c/remainder_r           | buttons_c/state_reg[1]_2                      |               10 |             18 |         1.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[2].inst/count[0]_i_1__6_n_0   |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[3].inst/count[0]_i_1__7_n_0   |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[4].inst/count[0]_i_1__8_n_0   |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[5].inst/count[0]_i_1__9_n_0   |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[8].inst/count[0]_i_1__12_n_0  |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[6].inst/count[0]_i_1__10_n_0  |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | buttons_d/count[0]_i_1__0_n_0                 |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | buttons_l/count[0]_i_1__1_n_0                 |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[7].inst/count[0]_i_1__11_n_0  |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | buttons_c/count[0]_i_1__3_n_0                 |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[11].inst/count[0]_i_1__15_n_0 |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[10].inst/count[0]_i_1__14_n_0 |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[9].inst/count[0]_i_1__13_n_0  |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | buttons_r/count[0]_i_1__2_n_0                 |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | buttons_u/count[0]_i_1_n_0                    |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[0].inst/count[0]_i_1__4_n_0   |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[15].inst/count[0]_i_1__16_n_0 |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG |                                 | debounce_switch[1].inst/count[0]_i_1__5_n_0   |                5 |             19 |         3.80 |
+|  clk_IBUF_BUFG | buttons_c/stable_reg_5[0]       |                                               |               10 |             24 |         2.40 |
+|  clk_IBUF_BUFG | buttons_c/state_reg[0]_2[0]     |                                               |               10 |             24 |         2.40 |
+|  clk_IBUF_BUFG | p_22_in                         | buttons_c/SR[0]                               |                6 |             27 |         4.50 |
+|  clk_IBUF_BUFG | buttons_c/remainder_r           | buttons_c/state_reg[1]_1                      |               20 |             34 |         1.70 |
+|  clk_IBUF_BUFG | buttons_c/held_reset_reg_inv_11 |                                               |               15 |             34 |         2.27 |
+|  clk_IBUF_BUFG |                                 |                                               |               56 |            104 |         1.86 |
++----------------+---------------------------------+-----------------------------------------------+------------------+----------------+--------------+
+
+
